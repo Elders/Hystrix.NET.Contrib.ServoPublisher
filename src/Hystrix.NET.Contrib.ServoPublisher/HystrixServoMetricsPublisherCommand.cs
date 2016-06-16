@@ -67,7 +67,7 @@ namespace Hystrix.NET.Contrib.ServoPublisher
                 () => circuitBreaker.IsOpen()));
 
             // allow Servo and monitor to know exactly at what point in time these stats are for so they can be plotted accurately
-            monitors.Add(getCurrentValueMonitor("currentTime", () => DateTimeOffset.UtcNow.ToUnixTimeMilliseconds(), DataSourceLevel.DEBUG));
+            monitors.Add(getCurrentValueMonitor("currentTime", () => DateTime.UtcNow.ToUnixTimestamp(), DataSourceLevel.DEBUG));
 
             // cumulative counts
             //monitors.Add(getCumulativeMonitor("countBadRequests", HystrixEventType.BAD_REQUEST));

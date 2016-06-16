@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Hystrix.NET.Contrib.ServoPublisher</RootNamespace>
     <AssemblyName>Hystrix.NET.Contrib.ServoPublisher</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -35,7 +36,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Java.Util.Concurrent, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Hystrix.1.0.0-beta0003\lib\net45-full\Java.Util.Concurrent.dll</HintPath>
+      <HintPath>..\packages\Servo.0.1.0-beta0004\lib\net45-full\Java.Util.Concurrent.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Netflix.Hystrix, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -48,9 +49,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Packages\LibLog.4.2\LibLog.cs" />
+    <Compile Include="DateTimeExtensions.cs" />
     <Compile Include="HystrixServoMetricsPublisherAbstract.cs" />
     <Compile Include="HystrixServoMetricsPublisherCommand.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
