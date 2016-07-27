@@ -7,8 +7,8 @@
     <authors>@authors@</authors>
     <language>en-US</language>
     <summary>@summary@</summary>
-    <licenseUrl>https://github.com/Elders/Hystrix.NET.Contrib.ServoPublisher/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/Elders/Hystrix.NET.Contrib.ServoPublisher</projectUrl>
+    <licenseUrl>https://github.com/Elders/Elders.Hystrix.NET.Contrib.ServoPublisher/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Elders/Elders.Hystrix.NET.Contrib.ServoPublisher</projectUrl>
     <releaseNotes>@releaseNotes@</releaseNotes>
     <tags>hystrix</tags>
     @dependencies@
