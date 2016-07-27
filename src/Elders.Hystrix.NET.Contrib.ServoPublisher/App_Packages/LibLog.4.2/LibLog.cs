@@ -40,23 +40,23 @@
 
 using System.Diagnostics.CodeAnalysis;
 
-[assembly: SuppressMessage("Microsoft.Design", "CA1020:AvoidNamespacesWithFewTypes", Scope = "namespace", Target = "Hystrix.NET.Contrib.ServoPublisher.Logging")]
-[assembly: SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed", Scope = "member", Target = "Hystrix.NET.Contrib.ServoPublisher.Logging.Logger.#Invoke(Hystrix.NET.Contrib.ServoPublisher.Logging.LogLevel,System.Func`1<System.String>,System.Exception,System.Object[])")]
+[assembly: SuppressMessage("Microsoft.Design", "CA1020:AvoidNamespacesWithFewTypes", Scope = "namespace", Target = "Elders.Hystrix.NET.Contrib.ServoPublisher.Logging")]
+[assembly: SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed", Scope = "member", Target = "Elders.Hystrix.NET.Contrib.ServoPublisher.Logging.Logger.#Invoke(Elders.Hystrix.NET.Contrib.ServoPublisher.Logging.LogLevel,System.Func`1<System.String>,System.Exception,System.Object[])")]
 
 // If you copied this file manually, you need to change all "YourRootNameSpace" so not to clash with other libraries
 // that use LibLog
 #if LIBLOG_PROVIDERS_ONLY
-namespace Hystrix.NET.Contrib.ServoPublisher.LibLog
+namespace Elders.Hystrix.NET.Contrib.ServoPublisher.LibLog
 #else
-namespace Hystrix.NET.Contrib.ServoPublisher.Logging
+namespace Elders.Hystrix.NET.Contrib.ServoPublisher.Logging
 #endif
 {
     using System.Collections.Generic;
     using System.Diagnostics.CodeAnalysis;
 #if LIBLOG_PROVIDERS_ONLY
-    using Hystrix.NET.Contrib.ServoPublisher.LibLog.LogProviders;
+    using Elders.Hystrix.NET.Contrib.ServoPublisher.LibLog.LogProviders;
 #else
-    using Hystrix.NET.Contrib.ServoPublisher.Logging.LogProviders;
+    using Elders.Hystrix.NET.Contrib.ServoPublisher.Logging.LogProviders;
 #endif
     using System;
 #if !LIBLOG_PROVIDERS_ONLY
@@ -426,7 +426,7 @@ namespace Hystrix.NET.Contrib.ServoPublisher.Logging
         /// The disable logging environment variable. If the environment variable is set to 'true', then logging
         /// will be disabled.
         /// </summary>
-        public const string DisableLoggingEnvironmentVariable = "Hystrix.NET.Contrib.ServoPublisher_LIBLOG_DISABLE";
+        public const string DisableLoggingEnvironmentVariable = "Elders.Hystrix.NET.Contrib.ServoPublisher_LIBLOG_DISABLE";
         private const string NullLogProvider = "Current Log Provider is not set. Call SetCurrentLogProvider " +
                                                "with a non-null value first.";
         private static dynamic s_currentLogProvider;
@@ -726,9 +726,9 @@ namespace Hystrix.NET.Contrib.ServoPublisher.Logging
 }
 
 #if LIBLOG_PROVIDERS_ONLY
-namespace Hystrix.NET.Contrib.ServoPublisher.LibLog.LogProviders
+namespace Elders.Hystrix.NET.Contrib.ServoPublisher.LibLog.LogProviders
 #else
-namespace Hystrix.NET.Contrib.ServoPublisher.Logging.LogProviders
+namespace Elders.Hystrix.NET.Contrib.ServoPublisher.Logging.LogProviders
 #endif
 {
     using System;

@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using Netflix.Hystrix;
-using Netflix.Hystrix.CircuitBreaker;
-using Netflix.Hystrix.Strategy.Metrics;
-using Netflix.Hystrix.Util;
-using Netflix.Servo;
-using Netflix.Servo.Attributes;
-using Netflix.Servo.Monitor;
-using Netflix.Servo.Tag;
+using Elders.Hystrix.NET.CircuitBreaker;
+using Elders.Hystrix.NET.Strategy.Metrics;
+using Elders.Hystrix.NET.Util;
+using Elders.Servo.NET;
+using Elders.Servo.NET.Attributes;
+using Elders.Servo.NET.Monitor;
+using Elders.Servo.NET.Tag;
 
-namespace Hystrix.NET.Contrib.ServoPublisher
+namespace Elders.Hystrix.NET.Contrib.ServoPublisher
 {
     public class HystrixServoMetricsPublisherCommand : HystrixServoMetricsPublisherAbstract, IHystrixMetricsPublisherCommand
     {

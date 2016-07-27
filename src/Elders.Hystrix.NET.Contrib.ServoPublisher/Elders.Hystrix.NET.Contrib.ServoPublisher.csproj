@@ -7,8 +7,8 @@
     <ProjectGuid>{A10D5358-5E7B-4FF0-A179-0BE46D88649F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Hystrix.NET.Contrib.ServoPublisher</RootNamespace>
-    <AssemblyName>Hystrix.NET.Contrib.ServoPublisher</AssemblyName>
+    <RootNamespace>Elders.Hystrix.NET.Contrib.ServoPublisher</RootNamespace>
+    <AssemblyName>Elders.Hystrix.NET.Contrib.ServoPublisher</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -31,16 +31,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Elders.Servo, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Servo.0.1.0-beta0004\lib\net45-full\Elders.Servo.dll</HintPath>
+    <Reference Include="Elders.Hystrix.NET, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hystrix.NET.1.0.0\lib\net45-full\Elders.Hystrix.NET.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elders.Servo.NET, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Servo.NET.0.1.2\lib\net45-full\Elders.Servo.NET.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Java.Util.Concurrent, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Servo.0.1.0-beta0004\lib\net45-full\Java.Util.Concurrent.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Netflix.Hystrix, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Hystrix.1.0.0-beta0003\lib\net45-full\Netflix.Hystrix.dll</HintPath>
+      <HintPath>..\packages\Hystrix.NET.1.0.0\lib\net45-full\Java.Util.Concurrent.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Hystrix.NET.Contrib.ServoPublisher
+namespace Elders.Hystrix.NET.Contrib.ServoPublisher
 {
     public static class DateTimeExtensions
     {

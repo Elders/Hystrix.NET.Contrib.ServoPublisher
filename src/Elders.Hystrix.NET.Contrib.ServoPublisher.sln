@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hystrix.NET.Contrib.ServoPublisher", "Hystrix.NET.Contrib.ServoPublisher\Hystrix.NET.Contrib.ServoPublisher.csproj", "{A10D5358-5E7B-4FF0-A179-0BE46D88649F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{EFF76830-86C6-428E-A958-0CF89F288A6E}"
 	ProjectSection(SolutionItems) = preProject
-		Hystrix.NET.Contrib.ServoPublisher\Hystrix.NET.Contrib.ServoPublisher.nuspec = Hystrix.NET.Contrib.ServoPublisher\Hystrix.NET.Contrib.ServoPublisher.nuspec
-		Hystrix.NET.Contrib.ServoPublisher\RELEASE_NOTES.md = Hystrix.NET.Contrib.ServoPublisher\RELEASE_NOTES.md
+		Elders.Hystrix.NET.Contrib.ServoPublisher\Hystrix.NET.Contrib.ServoPublisher.nuspec = Elders.Hystrix.NET.Contrib.ServoPublisher\Hystrix.NET.Contrib.ServoPublisher.nuspec
+		..\RELEASE_NOTES.md = ..\RELEASE_NOTES.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elders.Hystrix.NET.Contrib.ServoPublisher", "Elders.Hystrix.NET.Contrib.ServoPublisher\Elders.Hystrix.NET.Contrib.ServoPublisher.csproj", "{A10D5358-5E7B-4FF0-A179-0BE46D88649F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

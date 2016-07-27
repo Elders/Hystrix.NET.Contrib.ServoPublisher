@@ -1,9 +1,9 @@
 ﻿using System;
-using Netflix.Servo.Attributes;
-using Netflix.Servo.Monitor;
-using Netflix.Servo.Tag;
+using Elders.Servo.NET.Attributes;
+using Elders.Servo.NET.Monitor;
+using Elders.Servo.NET.Tag;
 
-namespace Hystrix.NET.Contrib.ServoPublisher
+namespace Elders.Hystrix.NET.Contrib.ServoPublisher
 {
     public abstract class HystrixServoMetricsPublisherAbstract
     {
